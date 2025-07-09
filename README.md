@@ -17,10 +17,9 @@ A robust and scalable **foreign exchange (FX) trading platform** built with **Sp
 ## 🛠️ Tech Stack
 
 - **Java**, **Spring Boot**
-- **Redis** – Caching and fallback mechanism for exchange rates
+- **Redis** – Idempotency, Caching and fallback mechanism for exchange rates
 - **RabbitMQ** – Asynchronous message queue for background job processing
-- **PostgreSQL / MySQL** – For persistent trade storage (optional)
-- **Docker** – For containerized deployment (optional)
+- **PostgreSQL** – For persistent trade storage
 
 ---
 
